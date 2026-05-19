@@ -358,7 +358,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
   }
 
   /* Scanlines */
@@ -379,13 +379,13 @@
      0;
     left: 0;
     right: 0;
-    padding: 10px 14px;
+    padding: 2px 40px;
     display: flex;
     align-items: center;
     justify-content: space-between;
     background: rgba(201,168,76,0.06);
     border-bottom: 1px solid rgba(201,168,76,0.12);
-    z-index: 5;
+    z-index: 2;
   }
   .screen-header-text {
     font-family: 'DM Sans', sans-serif;
@@ -416,7 +416,7 @@
   position: relative;
   z-index: 2;
   animation: characterFloat 2.4s ease-in-out infinite;
-  margin-top: -90px;
+  margin-top: 36px;
 
 }
   @keyframes characterFloat {
