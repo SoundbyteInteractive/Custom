@@ -409,15 +409,17 @@
 
   /* Character display */
   .screen-character {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 8px;
-    position: relative;
-    z-index: 2;
-    animation: characterFloat 2.4s ease-in-out infinite;
-    margin-top: 32px;
-  }
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  position: relative;
+  z-index: 2;
+  animation: characterFloat 2.4s ease-in-out infinite;
+  margin-top: 32px;
+
+  top: -20px;
+}
   @keyframes characterFloat {
     0%, 100% { transform: translateY(0); }
     50% { transform: translateY(-8px); }
